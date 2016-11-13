@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <title>Home</title>
+
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+ <!-- Latest compiled and minified CSS -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+ <!-- Optional theme -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+ <link rel="stylesheet" type="text/css" href="home.css">
+
+ <!-- Latest compiled and minified JavaScript -->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-static-top c-header-bar">
+    <div class="c-header-text-container">
+      <img alt="[Fannie Mae logo]" src="http://www.fanniemae.com/resources/img/fannie_mae_logo.gif" class="left">
+      <ul class="nav nav-pills">
+        <li> <a href="home.php"> LOGOUT </a></li>
+        <li> <a href="schedule.php"> SCHEDULE </a></li>
+        <li> <a href="maintenance.html"> MAINTENANCE </a></li>
+        <li> <a  class="loginBUTTON" href="report.html"> REPORT </a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+  <form action="" method="post">
+
+   <div class="property">
+    <h3>REPORT DETAILS</h3>
+    <label>Street Address</label>
+    <input type="Address" class="form-control" name="street" placeholder="Enter Street Name" /> <br>
+
+    <label>City</label>
+    <input type="City" class="form-control" name="city" placeholder="Enter City" /> <br>
+
+    <label>State</label>
+    <input type="State" class="form-control" name="state" placeholder="Enter State" /> <br>
+  
+
+
+    <label>Description of Repairs Needed</label>
+    <textarea class="form-control" rows="4"></textarea>
+
+    <label>Vendor Assigned</label>
+    <input type="name" name="vendor" placeholder="Vendor Name" />
+  
+    <br><br>
+
+  <input type="submit" class="loginBUTT" />
+</div>
+
+</form>
+
+
+
+
+</body>
+
+</html>
